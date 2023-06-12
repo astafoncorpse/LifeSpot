@@ -57,7 +57,22 @@ aside {
 
 body {
     padding-left: 11%;
-}}
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    border: 2px solid darkgrey;
+    border-radius: 2px;
+    outline: none;
+}
+
+    input:focus {
+        border: 2px solid dimgrey;
+    }
+
 
 /*Глобальные стили для хедеров на всём сайте*/
 header {
