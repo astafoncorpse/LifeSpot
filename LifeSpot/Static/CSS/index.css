@@ -4,8 +4,6 @@ header, footer, aside, body, .navbar, .video-container {
     font-family: "Helvetica 65 Medium", sans-serif;
 }
 
-/* Свойства стиля элемента. Подробнее о них в модуле по CSS */
-
 /* Простые селекторы*/
 .video-container {
     display: inline-block;
@@ -33,6 +31,7 @@ footer {
     line-height: 66%;
     padding-left: 1%;
 }
+
 aside {
     height: 100%; /* Высота в полный размер. Этот параметр можно убрать, если вы хотите выставлять высоту автоматически */
     width: 10%;
@@ -85,6 +84,21 @@ header {
 #header-index {
     color: #44453f;
 }
+
 header, footer, body, .video-container {
     background-color: #b5e5f5;
+}
+
+.review-container, .review-button {
+    display: inline-block;
+    margin-top: 0.5em;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.review-text {
+    display: block;
+    margin-top: 0.5em;
+    padding-left: 1%;
+    padding-top: 1%;
 }

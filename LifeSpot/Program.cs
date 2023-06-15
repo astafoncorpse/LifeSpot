@@ -13,7 +13,15 @@ namespace LifeSpot
     {
         public static void Main(string[] args)
         {
+            // Выводим информационное сообщение
+            
+
             CreateHostBuilder(args).Build().Run();
+        }
+
+        private static void Target(string str)
+        {
+            throw new NotImplementedException();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
